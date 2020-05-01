@@ -8,11 +8,12 @@ export default class MovieShowcase extends Component {
     // map over your movieData array and return an array of the correct JSX
   }
 
-  render() {
+  render(){
     return (
       <div id="movie-showcase">
         {this.generateMovieCards()}
       </div>
-    )
+      )
+    
   }
 }
